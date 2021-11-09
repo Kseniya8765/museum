@@ -102,10 +102,6 @@
     padding: 75px 0px;
   }
   
-  .video-section {
-    padding: 90px 0px 75px 0px;
-  }
-  
   .explore-section {
     padding: 75px 0px 85px 0px;
   }
@@ -115,11 +111,11 @@
   }
   
   .welcome-section {
-    padding: 113px 0px 246px 0px;
-    background: url(../assets/img/background.jpg);
-    background-size: 1215px 100%;
+    padding: 113px 0px 272px 0px;
+    background: url(../assets/img/monaBgimg.jpg);
+    background-size: 1000px 750px;
     background-repeat: no-repeat;
-    background-position: center left calc(50% + 350px);
+    background-position: center left calc(50% + 300px);
   }
   
   .dark-section {
@@ -400,7 +396,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 40px;
+    margin: 0 0 75px 0;
   }
   
   .video-text h2 {
@@ -426,7 +422,7 @@
     font-size: 80px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #9d8665;
     line-height: 90px;
     position: relative;
     margin-bottom: 103px;
@@ -468,7 +464,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 50px;
   }
   
@@ -480,7 +476,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 11px;
     text-align: right;
   }
@@ -493,7 +489,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 22px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 14px;
     margin-left: 25px;
   }
@@ -501,7 +497,7 @@
   .ticket-calc {
     width: 150px;
     height: 50px;
-    border: 2px solid #ffffff;
+    border: 2px solid #000000;
     margin-bottom: 35px;
     margin-left: 25px;
     display: -webkit-box;
@@ -515,7 +511,7 @@
   .ticket-btn {
     width: 175px;
     height: 50px;
-    background: #ffffff;
+    background: #000000;
     border-radius: 2px;
     -webkit-transition: 1s;
     transition: 1s;
@@ -523,7 +519,7 @@
     font-weight: 300;
     font-size: 22px;
     letter-spacing: 2px;
-    color: #000000;
+    color: #ffffff;
     margin-top: 50px;
   }
   
@@ -546,7 +542,7 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 26px;
-    color: #ffffff;
+    color: #000000;
     max-width: 270px;
   }
   
@@ -566,7 +562,7 @@
     width: 17px;
     background-color: transparent;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
   }
   
   /* On mouse-over, add a grey background color 
@@ -594,7 +590,7 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #000000;
   }
   
   .number {
@@ -605,7 +601,7 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 26px;
-    color: #ffffff;
+    color: #000000;
   }
   
   .plus {
@@ -613,7 +609,7 @@
     font-size: 32px;
     line-height: 37px;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     -webkit-transition: 1s;
     transition: 1s;
   }
