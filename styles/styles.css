@@ -301,8 +301,13 @@ position: absolute;
 
 .explore-img {
   max-width: 720px;
+  position: relative;
 }
-
+.img-slider{
+  position: absolute;
+  cursor: pointer;
+  left:20%;
+}
 .explore-text {
   max-width: 660px;
 }
@@ -689,6 +694,14 @@ position: absolute;
   color: #9d8665;
 }
 
+.parallax{
+max-width: 1920px;
+height: 400px;
+margin-top: 75px;
+}
+.prlx-container{
+  text-align: center;
+}
 .contacts-container {
   display: -webkit-box;
   display: -ms-flexbox;
