@@ -485,7 +485,35 @@ position: absolute;
   color: #000000;
   max-width: 720px;
 }
-
+.gallery-section{
+  padding-top: 75px;
+}
+.gallery-section h2{
+  
+    font-family: "Forum";
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 90px;
+    margin-bottom: 75px;
+}
+.picture-container{
+  overflow-y: hidden;
+  max-height: 1970px;
+}
+.picture-inner-container{
+  max-height: 1970px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 36px;
+  column-gap: 24px;
+  
+}
+.picture-inner-container img{
+  width: 456px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
 .tickets-section h2 {
   font-family: "Forum";
   font-size: 80px;
